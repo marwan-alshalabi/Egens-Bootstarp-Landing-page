@@ -7,6 +7,9 @@ body{
   font-weight: 500;
   color: black;
 }
+.nav-item:hover .nav-link{
+    color: #7153d9;
+}
 .main-subtitle{
     font-size: 24px;
     color: #7153d9;
@@ -29,3 +32,11 @@ border-radius: 35px;
 text-decoration: none;
 color: white;
 }
+.bg-white {
+    background: #E9EDF3!important;
+    
+  }
+  
+  .bg-white.scrolled {
+    background:white !important;
+  }
