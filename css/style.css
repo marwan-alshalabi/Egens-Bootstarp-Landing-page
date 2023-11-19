@@ -122,3 +122,29 @@ color:#0d5efd ;
     text-align: center;
     line-height: 113px;
 }
+
+/* media queries */
+
+/* mobiles */
+@media (max-width:576px) {
+    .main-title{
+        font-size: 36px;
+    }
+    .banner-section .container{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .main-subtitle{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .main-p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .banner-section img{
+        margin-top: 50px;
+    }
+}
